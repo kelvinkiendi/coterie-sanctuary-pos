@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Timezone Digital Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⏰ Global Clock</h1>
+            <p>Current time across different time zones</p>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="timezoneInput" placeholder="Add timezone (e.g., America/New_York)">
+            <button id="addBtn">Add Timezone</button>
+            <button id="resetBtn" class="reset-btn">Reset to Default</button>
+        </div>
+
+        <div class="clocks-grid" id="clocksContainer">
+            <!-- Clock items will be generated here -->
+        </div>
+
+        <div class="timezone-list">
+            <h3>Available Timezones:</h3>
+            <select id="timezoneSelect" size="8">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+            <button id="addFromListBtn">Add Selected</button>
+        </div>
+    </div>
+
+    <script src="clock.js"></script>
+</body>
+</html>
