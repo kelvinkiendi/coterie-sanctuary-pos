@@ -41,7 +41,7 @@ See [`docs/architecture.md`](docs/architecture.md) for auth flow, payment lifecy
 
 ```bash
 # Clone repository
-git clone https://github.com/kelvinkiendi/-coterie-sanctuary-pos.git
+git clone https://github.com/kelvinkiendi/coterie-sanctuary-pos.git
 
 # Install Supabase CLI
 npm install -g supabase
