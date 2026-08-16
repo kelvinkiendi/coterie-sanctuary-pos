@@ -1,0 +1,16 @@
+# Node
+node_modules/
+
+# Env
+.env
+
+# Build
+dist/
+build/
+
+# Editor
+.vscode/
+.DS_Store
+
+# Misc
+coverage/
